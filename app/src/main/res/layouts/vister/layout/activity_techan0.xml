@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/techan0"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+柴沟堡熏肉是有名的熟肉制品，是怀安县柴沟堡镇的特产，距今已有200多年的历史。它用柏木熏制而成，色泽鲜亮、爽淡不腻，味道独特。品种主要有熏猪肉（五花肉、猪头、猪排骨、下水），熏羊肉、熏鸡肉、熏兔肉、熏狗肉等。以“玺”字号熏肉最为有名。
+
+历史文化
+清乾隆年间，怀安县柴沟堡镇有一个叫郭玺的人，开设熏肉铺。他总结了前人制作熏肉的经验，创出一套独特的制作工艺，使柴沟堡熏肉身价倍增，据传说，八国联军侵入北京，慈禧太后和光绪皇帝外逃时，路经柴沟堡进膳，对柴沟堡熏肉颇为赞赏。 此后即被禧太后点为贡品。"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/techan3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+土山洼香瓜是宣化地区的特产，因产于宣化城东的土山洼村而得名，在宣化的瓜市上，土山洼香瓜可与外地来的哈蜜瓜媲美。
+土山洼村瓜农经过多年的精心选育，培植出了“倭瓜瓤”良种瓜，长期以来，在宣化一直独占鳌头。此瓜成熟后体大如拳，绿中透黄，瓜形椭圆，皮有积棱。打开后，可见牛舌样的瓜瓤相搭，轻轻一甩，白籽黄瓤即脱囊而出，仅留绿皮包着的桔黄瓜肉。最妙的是瓜肉沙嫩适宜，酥脆可口，甘甜如蜜，令人百食不厌。
+
+历史文化
+据老年人说，在很早以前，当地土质瘠薄，收获微小，村民的生活十分贫苦。有一年，一位外地人偶然路过此地，慧眼看中了该村北面红庙洼的几十亩旱坡地的土质，就住了下来，租了几亩地试种香瓜。春去秋来，香瓜成熟了，瓜园里散发出浓郁的瓜香，吸引了众多的食客前来购买。大家品尝后，一致赞美这里产的香瓜香甜可口。当地村民见种香瓜利润大，就纷纷向外地来的瓜农师傅取经。在第二年也学着种起了香瓜。短短的几年中，土山洼的沙旱地就全部种上了香瓜。每逢瓜熟之际，瓜秧缀田，瓜香遍野，人们络绎不绝地来到瓜地购买品尝。瓜农们除了坐地售瓜外，还把香瓜运往宣化城等地销售，使土山洼香瓜很快就誉满张宣地区。"/>
+</LinearLayout>

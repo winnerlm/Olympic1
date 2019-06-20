@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persons>
+    <person>
+        <name>短道速滑</name>
+        <image>u.jpg</image>
+        <memo>
+            <date>2022-02-04</date>
+            <type id="daystonow" hint="距离短道速滑-$placeholder$--天"/>
+            <type id="anniversary" hint="距离短道速滑"/>
+            <type id="hundredsday" hint="距离短道速滑"/>
+        </memo>
+        <!--<memo>
+            <date>2022-02-04</date>
+            <type id="daystonow" hint="我与皮娃认识都已经$placeholder$天了"/>
+            <type id="hundredsday" hint="认识皮娃$placeholder$天"/>
+            <type id="anniversary" hint="认识皮娃$placeholder$年"/>
+        </memo>
+        <memo>
+            <date>2022-02-04</date>
+            <type id="anniversary" hint="皮娃皮$placeholder$年"/>
+        </memo>-->
+    </person>
+    <person>
+        <name>速度滑冰</name>
+        <image>u1.jpg</image>
+        <memo>
+            <date>2022-02-05</date>
+            <type id="daystonow" hint="距离速度滑冰-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离速度滑冰"/>
+            <type id="anniversary" hint="距离速度滑冰"/>
+        </memo>
+    </person>
+    <person>
+        <name>花样滑冰</name>
+        <image>u2.jpg</image>
+        <memo>
+            <date>2022-02-06</date>
+            <type id="daystonow" hint="距离花样滑冰-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离花样滑冰"/>
+            <type id="anniversary" hint="距离花样滑冰"/>
+        </memo>
+    </person>
+    <person>
+        <name>冰球</name>
+        <image>u3.jpg</image>
+        <memo>
+            <date>2022-02-07</date>
+            <type id="daystonow" hint="距离冰球-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离冰球"/>
+            <type id="anniversary" hint="距离冰球"/>
+        </memo>
+    </person>
+    <person>
+        <name>冰壶</name>
+        <image>u4.jpg</image>
+        <memo>
+            <date>2022-02-08</date>
+            <type id="daystonow" hint="距离冰壶-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离冰壶"/>
+            <type id="anniversary" hint="距离冰壶"/>
+        </memo>
+    </person>
+    <person>
+        <name>俯式冰橇</name>
+        <image>u5.jpg</image>
+        <memo>
+            <date>2022-02-09</date>
+            <type id="daystonow" hint="距离俯式冰橇-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离俯式冰橇"/>
+            <type id="anniversary" hint="距离俯式冰橇"/>
+        </memo>
+    </person>
+    <person>
+        <name>自由式滑雪</name>
+        <image>u6.jpg</image>
+        <memo>
+            <date>2022-02-10</date>
+            <type id="daystonow" hint="距离自由式滑雪-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离自由式滑雪"/>
+            <type id="anniversary" hint="距离自由式滑雪"/>
+        </memo>
+    </person>
+    <person>
+        <name>单板滑雪</name>
+        <image>u7.jpg</image>
+        <memo>
+            <date>2022-02-11</date>
+            <type id="daystonow" hint="距离单板滑雪-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离单板滑雪"/>
+            <type id="anniversary" hint="距离单板滑雪"/>
+        </memo>
+    </person>
+    <person>
+        <name>无舵雪橇</name>
+        <image>u8.jpg</image>
+        <memo>
+            <date>2022-02-12</date>
+            <type id="daystonow" hint="距离无舵雪橇-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离无舵雪橇"/>
+            <type id="anniversary" hint="距离无舵雪橇"/>
+        </memo>
+    </person>
+    <person>
+        <name>有舵雪橇</name>
+        <image>u9.jpg</image>
+        <memo>
+            <date>2022-02-13</date>
+            <type id="daystonow" hint="距离有舵雪橇-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离有舵雪橇"/>
+            <type id="anniversary" hint="距离有舵雪橇"/>
+        </memo>
+    </person>
+    <person>
+        <name>高山滑雪</name>
+        <image>u10.jpg</image>
+        <memo>
+            <date>2022-02-14</date>
+            <type id="daystonow" hint="距离高山滑雪-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离高山滑雪"/>
+            <type id="anniversary" hint="距离高山滑雪"/>
+        </memo>
+    </person>
+    <person>
+        <name>跳台滑雪</name>
+        <image>u11.jpg</image>
+        <memo>
+            <date>2022-02-15</date>
+            <type id="daystonow" hint="距离跳台滑雪-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离跳台滑雪"/>
+            <type id="anniversary" hint="距离跳台滑雪"/>
+        </memo>
+    </person>
+    <person>
+        <name>越野滑雪</name>
+        <image>u12.jpg</image>
+        <memo>
+            <date>2022-02-16</date>
+            <type id="daystonow" hint="距离越野滑雪-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离越野滑雪"/>
+            <type id="anniversary" hint="距离越野滑雪"/>
+        </memo>
+    </person>
+    <person>
+        <name>北欧两项</name>
+        <image>u13.jpg</image>
+        <memo>
+            <date>2022-02-17</date>
+            <type id="daystonow" hint="距离北欧两项-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离北欧两项"/>
+            <type id="anniversary" hint="距离北欧两项"/>
+        </memo>
+    </person>
+    <person>
+        <name>冬季两项</name>
+        <image>u14.jpg</image>
+        <memo>
+            <date>2022-02-18</date>
+            <type id="daystonow" hint="距离冬季两项-$placeholder$--天"/>
+            <type id="hundredsday" hint="距离冬季两项"/>
+            <type id="anniversary" hint="距离冬季两项"/>
+        </memo>
+    </person>
+
+</persons>

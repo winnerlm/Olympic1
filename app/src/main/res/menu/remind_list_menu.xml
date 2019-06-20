@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_desk_clock"
+        android:title="@string/menu_desk_clock"
+        android:icon="@drawable/jiudian1"/>
+    <item android:id="@+id/menu_item_add_alarm"
+        android:title="@string/add_alarm"
+        android:icon="@drawable/jiudian3"/>
+    <item android:id="@+id/menu_item_settings"
+        android:title="@string/settings"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+</menu>
+
+

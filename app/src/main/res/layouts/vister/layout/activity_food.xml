@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wenhaibo.vister.FoodActivity">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="140dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/search_edit"
+        android:hint="输入关键字"
+        android:singleLine="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/map" />
+
+    <ImageButton
+        android:layout_marginLeft="20dp"
+        android:id="@+id/search_button"
+        android:background="@drawable/sousuo"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/juli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/map">
+    </Spinner>
+</LinearLayout>
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+    </com.amap.api.maps.MapView>
+
+</LinearLayout>

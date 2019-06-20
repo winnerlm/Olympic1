@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hosinfo">
+        <item></item>
+        <item>河北北方学院附属第一医院</item>
+        <item>中国人民解放军第二五一医院</item>
+        <item>张家口市第一医院</item>
+        <item>张家口市妇幼保健院</item>
+        <item>张家口市第二医院</item>
+        <item>张家口市第四医院</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="lm">
+        <item></item>
+        <item>张家口威尼斯大酒店</item>
+        <item>张家口国际大酒店</item>
+        <item>张家口容辰国际假日酒店</item>
+        <item>三只熊度假酒店公寓(崇礼容辰店)</item>
+        <item>张家口冠奥假日酒店</item>
+        <item>张家口国宾东升大酒店</item>
+        <item>其他</item>
+    </string-array>
+
+</resources>

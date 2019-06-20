@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/techan5"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+杏扁是原产于我国北方地区的一种果树，在植物分类学上属于蔷薇科李亚科杏属，《河北果树志》认为杏扁是西伯利亚杏（山杏）和杏（普通杏）的自然杂交种，蔚县是全国杏扁的传统产区和主产区之一，以其粒大皮薄，营养丰富而蜚声中外。
+杏扁的营养价值和商品价值集中体现在杏仁上，营养丰富，含人体所需的钙、铁、锌、硒及无机盐和多种维生素，具有润肺、止咳、润肠止泻、杀虫解毒等功效。杏仁中含丰富的维生素B17，可预防和缓解癌症，经常食用杏扁可祛病强身，延年益寿，是一种无污染，多营养的无糖绿色食品。"/>
+</LinearLayout>

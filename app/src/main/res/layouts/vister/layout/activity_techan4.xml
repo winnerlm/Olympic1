@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/techan4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+蔚州贡米，又称蔚县小米，小米的源粮乃谷子，谷子去壳，色泽金黄，即称小米。蔚县南北二坡及桃花一带是盛产小米的区域，著名的“桃花小米”声誉北国，据史书记载，蔚县桃花小米，远在明清时曾被列为“四大贡米”之一。
+该米是在河北省蔚县特殊的土壤、水质、气温下种植生产并经传统工艺加工而成的。蔚州贡米含有多种营养物质，如蛋白质、脂肪、碳水化合物、钙、磷、铁、锌、维生素等。与大米相比，蛋白质高1.5倍，脂肪高6倍，维生素B1高1.5倍，B2高1倍，粗纤维高6倍，并含有丰富的各种氨基酸、特别是人体所必需的各种色氨酸、精氨酸的含量均高于其他粮食。所以它是产妇、老、弱、婴幼儿的良好滋补食品，深受消费者欢迎。
+
+历史文化
+蔚州是京西的米粮川，小米是蔚县的特产。曾被列为“四大贡米”之一。据《蔚州志》载：元“至治二年（1322年）八月，蔚州献嘉谷。”蔚县的黄小米，远在七百年前就成为贡品，进入御膳房而享誉京城。蔚县小米能获此殊荣，与其的处的地量位置和气候有关，蔚县地处冀西北间盆地，坡地多，水量少，且十年九旱。而抗灾力强而又耐旱的谷物适宜于在这种环境下生长，故在粮食作物种植上，成为首选，历代相袭，约有一千余年的栽培历史。目前，种植面积和年产量分别占全县耕地面积和粮食总产量的三分之一。"/>
+</LinearLayout>

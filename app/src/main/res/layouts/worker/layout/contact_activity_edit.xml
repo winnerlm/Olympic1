@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing1"
+    android:orientation="vertical"
+    tools:context="worker.contact.ContactMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etRong"
+            android:layout_width="fill_parent"
+            android:text="姓名"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/etNei"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20dp"
+            android:text="电话"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/ibGai"
+            android:layout_gravity="center"
+            android:background="@drawable/tianjia2" />
+    </LinearLayout>
+</LinearLayout>

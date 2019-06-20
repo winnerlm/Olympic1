@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/techan6"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+宣化白葡萄，又名牛奶葡萄、马奶葡萄，果实呈长椭圆形，酷似奶牛乳头。皮薄质脆肉厚，紧密多汁，可剥皮切片，刀切分瓣，有“刀切牛奶不流汁”之美誉。且籽粒少，味甘甜。香气浓，耐存放。营养价值高，可做治疗贫血的辅助剂，又为酿酒、制葡萄汁、蜜饯、罐头、葡萄干的上等原料。
+拿上一颗葡萄，剥去它的皮，用小刀切成薄薄的片，果汁含在肉内而不出，这种葡萄皮薄粒大，宣化白葡萄肉厚而脆，汁多而甜，含糖量高，其味道鲜美，甜酸适度，有一股特殊的清香。除含有大量葡萄糖外，还含有蛋白质、多种维生素和磷、钾、钙等矿物质，有很高的营养价值，是老少皆宜的营养佳品。此外，它还有一定的药用价值。果实可做治疗贫血的辅助剂，藤及根可以入药，具有镇静、止吐、止痛之功能。还是酿酒、制葡萄汁、罐头、蜜饯、葡萄干的上等原料。"/>
+</LinearLayout>

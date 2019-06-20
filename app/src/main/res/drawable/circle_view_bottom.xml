@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false"><shape android:shape="rectangle">
+
+        <!-- 填充的颜色 -->
+        <!--  -->
+        <solid android:color="@color/blueflush" />
+
+        <gradient
+            android:angle="315"
+            android:centerColor="@color/welcome_bgc"
+            android:centerX="0.5"
+            android:centerY="1"
+            android:endColor="@color/blueflush"
+            android:startColor="@color/welcome_bgc" />
+
+        <corners android:bottomLeftRadius="50dip" android:bottomRightRadius="50dip" android:topLeftRadius="50dip" android:topRightRadius="50dip" />
+
+        <padding android:bottom="5dip" android:left="10dip" android:right="10dip" android:top="5dip" />
+    </shape></item>
+</selector>

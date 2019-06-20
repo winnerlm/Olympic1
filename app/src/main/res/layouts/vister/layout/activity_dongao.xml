@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/dongao" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="2022冬奥简介：将在2022年2月4日至2022年2月20日在中华人民共和国北京市和河北省张家口市联合举行。北京将承办所有冰上项目，延庆和张家口将承办所有的雪上项目。"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="比赛项目:(1)冰上项目（北京主办）：短道速滑、速度滑冰、花样滑冰、俯式冰橇、冰球、冰壶
+(2)雪上项目（张家口主办、延庆协办）：自由式滑雪、冬季两项、越野滑雪、跳台滑雪、北欧两项（越野滑雪、跳台滑雪）、无舵雪橇、有舵雪橇、钢架雪车(俯式冰橇)，单板滑雪、高山滑雪。"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="本软件奥运助手是一款针对游客，运动员，工作人员三个角色的综合应用。根据参会人员的不同身份进行不同的分配。下列是不同身份的选择，您看看你是哪个？"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="70dp"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="你是来参观的冬奥盛世的游客？"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/youke1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="你是持之以恒为国争光的运动员？"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/yundongyuan1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="你是默默奉献的工作人员？"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/gongzuorenyuan" />
+            </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdg"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/rbtn1"
+            android:layout_weight="1"
+            android:text="游客"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/rbtn2"
+            android:layout_weight="1"
+            android:text="运动员"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/rbtn3"
+            android:layout_weight="1"
+            android:text="工作人员"
+            android:textSize="15dp"
+            android:gravity="center"/>
+    </RadioGroup>
+</LinearLayout>

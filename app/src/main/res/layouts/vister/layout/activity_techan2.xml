@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/techan2"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+大蒜，属于经济作物，久负盛名的大蒜产于怀来县西八里乡，俗称“西八里大蒜”。西八里大蒜不仅在张家口、北京、内蒙古享有盛名，走俏市场。西八里大蒜系紫皮蒜种，肉白晰，汁辛辣，不但是家庭生活不可缺少的调味品，而且具有特殊的医药价值，它含有大蒜素等抗菌物质，可以抵抗十多种有害细菌。
+我国古代著名的医学家李时珍在《本草纲目》中记载，紫皮大蒜有散痛肿、除风邪、杀毒气、祛风湿、疗疤癣、键脾胃、治肾气、止霍乱、解瘟疫等功能。西八里大蒜究竟起源于何年何代，现已无法考证。据当地老人回忆，自打明朝迁村以来，大蒜一直就是西八里乡的传统经济作物。因为它生长期只有100多天，而且还可与其作物间复播种，不影响二茬作物的产量，经济效益高。如今，伴随大蒜产量的日益增加，“多效美味蒜泥”专利的获得，大蒜被加工成美味蒜泥，投放市场，受到张家口、北京等地顾客的欢迎。(张家口)"/>
+</LinearLayout>

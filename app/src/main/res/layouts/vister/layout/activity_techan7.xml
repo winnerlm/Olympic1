@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/techan7"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+鹦哥绿豆又叫宣化绿豆，主要产于宣化一带，这种绿豆，粒大颗匀，深绿有光，酷似鹦鹉羽毛的颜色，故在国际市场上又有“鹦哥绿豆”之美名，享有很高的声誉并与牛奶葡萄齐名。
+鹦哥绿豆，性喜温暖，耐旱，适应性强，生长期短，小满播种，白露收割，仅需四个月左右。而宣化附近地理位置和昼夜温差大的气候条件和土壤、水质特点，正适应其生长，加之精耕细作，传统的“跑马谷子，卧牛豆”式的种植方法，孕育出了绿豆品种佼佼者。
+绿豆在粮食作物里，用途广泛，特别是鹦哥绿豆，具有豆味浓香、好煮易烂、含淀粉率高的特点，除食用外，还可以制粉丝、糕点等。绿豆的药用价值也很高，有清热解毒、消暑、利尿之功效，如民间验方有绿豆芽汁加适量白糖，频饮代茶，可治疗泌尿系统感染等症;绿豆菜心粥可治疗小儿腮腺炎。《本草纲目》上记载，素油炒豆芽，有解热毒、利三焦之功效;猪肝绿豆粥可治疗营养性视弱和浮肿等症。"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/techan8"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介：
+        口蘑是生长在蒙古草原上的一种白色伞菌属野生蘑菇，一般生长在有羊骨或羊 粪的地方，味道异常鲜美。由于蒙古口蘑士特产以前都通过河北省张家口市输往内地，张家口是蒙古货物的集散地，所以被称为“口蘑”。由于产量不大,需求量大，所以价值昂贵，目前仍然是中国市场上最为昂贵的-种蘑菇。"/>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="line_view_samll">0.2dp</dimen>
+    <dimen name="line_view">0.5dp</dimen>
+    <dimen name="line_view_big">2dp</dimen>
+
+    <dimen name="paddingBottom">4dp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+
+    <dimen name="text_size_middle">16sp</dimen>
+    <dimen name="text_size_4">4sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_title_size">24sp</dimen>
+    <dimen name="base_action_bar_height">48.0dip</dimen>
+
+    <dimen name="verifyCodeImage_minHeight">48dp</dimen>
+    <dimen name="default_headphoto">56dp</dimen>
+    <dimen name="verifyCodeImage_minWidth">96dp</dimen>
+
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_36">36dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_44">44dp</dimen>
+    <dimen name="dimen_56">56dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_107">107dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_34">34dp</dimen>
+    <dimen name="dimen_55">55dp</dimen>
+    <dimen name="app_bar_height">240dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+
+    <dimen name="buttonSize">23dp</dimen>
+    <dimen name="radioButtonSize">25dp</dimen>
+    <dimen name="buttonRadius">3dp</dimen>
+    <dimen name="buttonBorder">2.0dp</dimen>
+    <dimen name="buttonPadding">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+
+</resources>

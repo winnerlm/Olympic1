@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="player.zhexian.HandlerActivity" >
+
+    <!--  android:layout_above="将该控件的底部置于给定ID的控件之上" -->
+    <!--  android:layout_below="将该控件的底部置于给定ID的控件之下" -->
+    <!--  android:layout_toLeftOf="将该控件的右边缘和给定ID的控件的左边缘对齐" -->
+    <!--  android:layout_toRightOf="将该控件的左边缘和给定ID的控件的右边缘对齐" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="运动员月健康情况"
+        android:id="@+id/textOne" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入每月的健康指数，例1,2,3"
+        android:id="@+id/editOne"
+        android:layout_below="@id/textOne" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/editOne"
+        android:text="重置" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:layout_toLeftOf="@id/submit"
+        android:layout_below="@id/editOne"
+        android:text="确定" />
+
+    <LinearLayout android:id="@+id/lineChar"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit" />
+
+</RelativeLayout>

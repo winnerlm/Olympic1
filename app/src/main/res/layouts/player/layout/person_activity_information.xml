@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_personInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/personinfo_updata_clickbg">
+
+        <ImageView
+            android:id="@+id/student_headSculpture"
+            android:layout_width="@dimen/default_headphoto"
+            android:layout_height="@dimen/default_headphoto"
+            android:layout_marginBottom="@dimen/dimen_16"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:src="@drawable/person_information" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/student_headSculpture"
+            android:layout_alignTop="@+id/student_headSculpture"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/student_headSculpture"
+            android:gravity="center"
+            android:text="个人数据"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_16"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:layout_toRightOf="@id/student_headSculpture"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/student_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/student_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_18" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_16"
+            android:src="@drawable/back_right_gray" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="健康统计图"
+        android:id="@+id/btn_quxian"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_view_samll"
+        android:background="@color/lightgray" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试记录:"
+        android:textColor="@color/indigo"
+        android:textSize="25dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_view_big"
+        android:background="@color/tan" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/lv_rate_record"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

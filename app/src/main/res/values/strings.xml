@@ -1,0 +1,184 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Olympic</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <string name="str_recorder_normal">按住说话</string>
+    <string name="str_recorder_recording">松开结束</string>
+    <string name="str_recorder_want_cancel">松开手指，取消发送</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="show">显示</string>
+
+    <string name="label">"请输入药品名称"</string>
+    <string name="heart_rate_set">"设置"</string>
+    <string name="heart_rate_show">"显示"</string>
+
+    <string name="alarm_list_title">"提醒"</string>
+    <string name="add_alarm">"添加新提醒"</string>
+    <string name="desk_clock_button_description">"时钟显示"</string>
+    <string name="default_label">"提醒"</string>
+    <string name="menu_desk_clock">"座钟"</string>
+    <string name="menu_edit_alarm">"修改闹钟设置"</string>
+    <string name="enable_alarm">"启用提醒"</string>
+    <string name="delete_alarm">"取消提醒"</string>
+    <string name="delete_all_alarm">"取消所有提醒"</string>
+    <string name="disable_alarm">"停用提醒"</string>
+    <string name="delete_alarm_confirm">"将会取消此提醒。"</string>
+    <string name="delete_all_alarm_confirm">"将会取消所有提醒。"</string>
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g>（已暂停）"</string>
+    <string name="alarm_repeat">"重复"</string>
+    <string name="alarm_vibrate">"振动"</string>
+    <string name="alert">"铃声"</string>
+    <string name="time">"时间"</string>
+    <string name="set_alarm">"设置提醒"</string>
+
+    <string name="done">"完成"</string>
+    <string name="revert">"还原"</string>
+    <string name="delete">"删除"</string>
+    <string name="alarm_alert_dismiss_text">"知道了"</string>
+    <string name="alarm_volume_title">"提醒音量"</string>
+    <string name="alarm_volume_summary">"设置提醒音量"</string>
+    <string name="silent_alarm_summary">"静音"</string>
+    <string name="alarm_notify_text">"选择暂停或关闭此提醒。"</string>
+    <string name="alarm_alert_snooze_text">"暂停再响"</string>
+    <string name="alarm_alert_alert_silenced">"提醒响铃时间为 <xliff:g id="MINUTES">%d</xliff:g> 分钟"</string>
+    <string name="alarm_notify_snooze_text">"已将提醒设置为从现在起 <xliff:g id="TIME">%s</xliff:g>后再提醒。选中可以取消。"</string>
+    <string name="alarm_alert_snooze_set">"暂停 <xliff:g id="MINUTES">%d</xliff:g> 分钟。"</string>
+
+    <string-array name="alarm_set">
+        <item msgid="5163476010406761625">"已将此提醒设置为从现在起不到 1 分钟后提醒。"</item>
+        <item msgid="7110525731259629055">"已将此提醒设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g>后再提醒。"</item>
+        <item msgid="7003982794086186185">"已将此提醒设置为从现在起 <xliff:g id="HOURS">%2$s</xliff:g>后再提醒。"</item>
+        <item msgid="7311021123230077742">"已将此提醒设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g> <xliff:g id="HOURS">%2$s</xliff:g>后再提醒。"</item>
+        <item msgid="8431715191823114872">"已将此提醒设置为从现在起 <xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+        <item msgid="3244151088673185428">"已将此提醒设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+        <item msgid="3663661342600168814">"已将此提醒设置为从现在起 <xliff:g id="HOURS">%2$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+        <item msgid="7779544127785487304">"已将该提醒设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g> <xliff:g id="HOURS">%2$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+    </string-array>
+    <string name="day">"1 天"</string>
+   // <string name="days">"<xliff:g id="DAYS">%s</xliff:g> 天"</string>
+    <string name="hour">"1 小时"</string>
+    <string name="hours" msgid="2071487018566991613">"<xliff:g id="HOURS">%s</xliff:g> 小时"</string>
+    <string name="minute">"1 分钟"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> 分钟"</string>
+    <string name="every_day">"每天"</string>
+    <string name="never">"一律不"</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">"选择要显示的提醒。"</string>
+    <string name="analog_gadget">"模拟提醒"</string>
+    <string name="settings">"设置"</string>
+    <string name="alarm_in_silent_mode_title">"静音模式下提醒响"</string>
+    <string name="alarm_in_silent_mode_summary">"手机处于静音模式时，提醒仍会响"</string>
+    <string name="snooze_duration_title">"再响间隔"</string>
+    <string-array name="snooze_duration_entries">
+        <item msgid="8337408933053603125">"5 分钟"</item>
+        <item msgid="5294206441496024610">"10 分钟"</item>
+        <item msgid="2165904039211935470">"15 分钟"</item>
+        <item msgid="7248236967714374250">"20 分钟"</item>
+        <item msgid="738394723625179423">"25 分钟"</item>
+        <item msgid="1180222611308391616">"30 分钟"</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item msgid="3655014754453084122">"5"</item>
+        <item msgid="8939029597449573449">"10"</item>
+        <item msgid="3922647341176353315">"15"</item>
+        <item msgid="5821804105985044459">"20"</item>
+        <item msgid="6048861883552402852">"25"</item>
+        <item msgid="2740866721232379791">"30"</item>
+    </string-array>
+    <string name="alarm_klaxon_service_desc">"在 DeskClock 中设置的提醒铃声播放服务。"</string>
+
+    <string-array name="log_method">
+        <item>游客</item>
+        <item>运动员</item>
+        <item>工作人员</item>
+    </string-array>
+
+    <string name="app_name1">健康饮食搭配</string>
+    <string name="listbtn1">猪肉</string>
+    <string name="listbtn2">猪肝</string>
+    <string name="listbtn3">猪血</string>
+    <string name="listbtn4">羊肉</string>
+    <string name="listbtn5">牛肉</string>
+    <string name="listbtn6">牛肝</string>
+    <string name="listbtn7">鹅肉</string>
+    <string name="listbtn8">兔肉</string>
+    <string name="listbtn9">狗肉</string>
+    <string name="listbtn10">鸭肉</string>
+    <string name="listbtn11">鸡肉</string>
+    <string name="listbtn12">驴肉</string>
+    <string name="listbtn13">鸡蛋</string>
+    <string name="listbtn14">鲤鱼</string>
+    <string name="listbtn15">黄鱼</string>
+    <string name="listbtn16">虾</string>
+    <string name="listbtn17">虾皮</string>
+    <string name="listbtn18">螃蟹</string>
+    <string name="listbtn19">蛤</string>
+    <string name="listbtn20">鳖肉</string>
+    <string name="listbtn21">田螺</string>
+    <string name="listbtn22">大蒜</string>
+    <string name="listbtn23">葱</string>
+    <string name="listbtn24">萝卜</string>
+    <string name="listbtn25">芹菜</string>
+    <string name="listbtn26">韭菜</string>
+    <string name="listbtn27">菠菜</string>
+    <string name="listbtn28">莴笋</string>
+    <string name="listbtn29">竹笋</string>
+    <string name="listbtn30">西红柿</string>
+    <string name="listbtn31">洋葱</string>
+    <string name="listbtn32">醋</string>
+    <string name="listbtn33">茶</string>
+    <string name="listbtn34">豆浆</string>
+    <string name="listbtn35">红糖</string>
+    <string name="listbtn36">蜂蜜</string>
+    <string name="listbtn37">牛奶</string>
+    <string name="listbtn38">白酒</string>
+    <string name="listbtn39">啤酒</string>
+    <string name="abouttitle">关于本软件</string>
+    <string name="text1">本软件提供关于各类食物不适宜搭配的相关信息为收集整理的各种中医资料所得，本软件不保证其科学性以及严谨性，仅供参考之用
+	</string>
+    <string name="title2">版本V1.0.1的改进</string>
+    <string name="text2">1.优化了用户界面
+		2.对不适宜同时食用的食物，添加了详细的原因描述。
+		3.增加了软件的帮助说明
+	</string>
+    <string name="title3">关于软件中的广告</string>
+    <string name="text3">在使用本软件的过程中，你有时会看到界面的顶端出现广告，由于本软件为免费软件，团队的开发经费主要来源与软件中的嵌入式广告的点击收入，因此对于软件中嵌入的广告，希望用户能够理解和支持。如果你对软件中嵌入广告的内容有任何意见或者建议，欢迎你随时给我们发送邮件。
+	</string>
+    <string name="title4">用户反馈</string>
+    <string name="text4">如果你在使用软件的过程中，有任何意见或者建议，欢迎发送邮件到以下邮箱地址，你宝贵的意见对我们持续改进软件质量有很的大帮助。</string>
+    <string name="email">mobillionapp@gmail.com</string>
+    <string name="middle">不宜同食的食物列表</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="xiaowa_name">小娃娃</string>
+    <string name="piwa_name">皮娃</string>
+    <string name="xiaowa_birthday">2012-11-24</string>
+    <string name="piwa_birthday">1978-08-07</string>
+    <string name="label_juli">距离</string>
+    <string name="label_haiyou">还有</string>
+
+
+    <string name="add">添加</string>
+    <string name="add_recy">add_recy</string>
+    <string name="listview">listview</string>
+    <string name="recyclerview">recyclerview</string>
+    <string name="query">查询</string>
+    <string name="songname">任务名</string>
+    <string name="singer">人员数量</string>
+    <string name="input">输入任务名或人员数量</string>
+
+
+    <string name="input_nickname">请输入昵称</string>
+    <string name="join_chatroom">加入聊天室</string>
+    <string name="error_field_required1">可以取个好名字</string>
+    <string name="prompt_message">我想说...</string>
+    <string name="action_send">Send</string>
+    <string name="socket_connect_fail">Socket未连接成功</string>
+</resources>

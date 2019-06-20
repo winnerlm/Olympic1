@@ -1,0 +1,35 @@
+<resources>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">游客</string>
+    <string name="title_dashboard">工人</string>
+    <string name="title_notifications">运动员</string>
+
+    <string name="yc">一层</string>
+    <string name="ec">二层</string>
+    <string name="drbj">单人标间</string>
+    <string name="srbj">双人标间</string>
+    <string name="drgbj">单人贵宾间</string>
+    <string name="srgbj">双人贵宾间</string>
+    <string name="sr">10人</string>
+    <string name="swr">15人</string>
+    <string name="eswr">25人</string>
+    <string name="ss">40人</string>
+    <string name="bs">80人</string>
+    <string name="yb">100人</string>
+    <string name="ybes">120人</string>
+    <string name="help">帮助</string>
+    <string name="gy">关于</string>
+
+</resources>

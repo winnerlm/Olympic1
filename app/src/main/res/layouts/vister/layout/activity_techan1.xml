@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/techan1"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介
+圪渣饼原产于阳原揣骨瞳，阳原人称“锅巴”为“圪渣”，因其薄脆，故起名为“圪渣饼”。
+圪渣饼，选料精良，工艺考究。烤制而成的圪渣饼是半透明状的圆形薄饼，色泽金黄，有油脂性的光彩。吃时，酥、脆、香、甜，别有风味，异常可口。阳原人称“锅巴”为“圪渣”，因其薄脆，故起名为“圪渣饼”。圪渣饼作为馈亲赠友的上等佳品。足迹几乎遍布全国各地，一些侨居国外抑或出国考查旅游和求学的人，均以圪渣饼作为珍品馈赠国际友人。近些年来，揣骨町糕点店改变原产品油大发腻的缺点，在原料中加进水果汁制成酥、脆、果香、甜的新产品，将原名圪渣饼改名为龙凤酥，受到各地市场的欢迎。
+
+历史文化
+圪渣饼起源于何时，无史可考，但在满清时期，揣骨町的圪渣饼已闻名遐迩，脍炙人口了。清咸丰年间，阳原人任滨州知府的李增光曾以此饼进奉清廷，得到慈禧太后的赞赏，遂成为宫廷御食。"/>
+</LinearLayout>
